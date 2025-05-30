@@ -1,6 +1,11 @@
 
+html {
+    height: 100%;
+}
+
 body{
     display: flex;
+    height: 100%; /* 親要素の高さを指定（例としてビューポートの高さ） */
 }
 
 div:hover{
@@ -9,13 +14,15 @@ div:hover{
 
 div {
     width: 300px;
-    margin-right: auto;
-    margin-left: auto;
+    
     margin-top: auto;
     margin-bottom: auto;
-    text-align: center;
-    background-color: aquamarine;
+    margin-left: auto;
+    margin-right: auto;
     
+    text-align: center;
+    
+    background-color: aquamarine;
     box-shadow: 0 0 20px 2px #000000;
 }
 
